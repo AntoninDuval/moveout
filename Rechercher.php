@@ -69,11 +69,7 @@ while($donnees2 =$reponse2->fetch())
 if($color==0){echo '<p>Aucun évènement ne correspond à votre recherche. </p>';}
 ?>  
     </div>
-</section>
-        
-        
-        
-        
+</section>       
     </div>
         <?php
         }

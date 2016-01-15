@@ -1,3 +1,4 @@
+
 <?php
 //On n'affiche le champs permettant de commenter que si l'utilisateur est connecté
 if(isset($_SESSION['id'])){

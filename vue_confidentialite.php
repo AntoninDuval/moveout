@@ -1,3 +1,4 @@
+
 <div class="tete">
 <h1> Politique de confidentialité du site <h1>
 </div>

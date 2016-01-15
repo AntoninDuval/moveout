@@ -1,3 +1,4 @@
+
 <?php $reponse= $bdd->query("SELECT *,DATE_FORMAT(date_debut, '%d/%m/%Y') AS date_debut_fr, multimedia.lien FROM multimedia, evenement WHERE multimedia.IDmultimedia = evenement.IDmultimedia LIMIT 0, 2");
 			while ($donnees = $reponse->fetch())
 				{
