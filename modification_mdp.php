@@ -14,6 +14,9 @@ session_start();
         <link rel='stylesheet' href='CSSnav.css'>
         <link rel='stylesheet' href='CSSfooter.css'>
         <title>Modification du mot de passe</title>
+        <link rel='stylesheet' href='CSStestJS.css'>
+        <script type="text/javascript" src="fonctionsJS.js"></script>
+        <script type="text/javascript" src="test_verification_adresse_mail.js"></script>
     </head>
     <body>
         <div id="global">
@@ -32,12 +35,14 @@ session_start();
             <ol>
 		<li>
                     <label for=mdp>Mot de Passe*</label>
-                    <input id=mot_de_passe name=mot_de_passe type=password required>
+                    <input id=mot_de_passe name=mot_de_passe type=password maxlength=25 minlength="6" onkeyup="verifPseudo(mot_de_passe)" required>
                 </li>
 		<li>
                     <label for=mdp2>Confirmer le mdp*</label>
-                    <input id=mot_de_passe_conf name=mot_de_passe_conf type=password required>
+                    <input id=mot_de_passe_conf name=mot_de_passe_conf type=password maxlength=25 minlength="6" onkeyup="compare(mot_de_passe,mot_de_passe_conf)" required>
                 </li>
+
+
             </ol>
             <button id=sub_inscr type=submit name=sub_inscr >Valider</button>
 	</fieldset>
