@@ -1,4 +1,3 @@
-
 <header>
 <?php
 if(isset($_GET['creationok'])){

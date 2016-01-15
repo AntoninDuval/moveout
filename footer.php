@@ -1,4 +1,3 @@
-
 <footer>
             <div>
                 <ul class="image_footer">

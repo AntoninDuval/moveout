@@ -1,5 +1,4 @@
-
-<h1 classe="titre">Formulaire de modification de vos informations</h1>
+    <h1 classe="titre">Formulaire de modification de vos informations</h1>
     
     <form class="formulaire" id="formulaire_modification_profil" action ="validation_modification_profil.php" method="post">
 	
